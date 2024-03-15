@@ -649,6 +649,8 @@ header {
   .team-list {
     flex-direction: column;
     gap: 72px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
   .section-team {
     padding-left: 12px;
@@ -656,16 +658,15 @@ header {
   }
 }
 @media screen and (min-width: 768px) {
-  .section-team {
-    padding-left: 92px;
-    padding-right: 92px;
-  }
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
+    margin-left: 92px;
+    margin-right: 92px;
   }
+
   .team-item {
     width: calc((100% - 24px) / 2);
   }
